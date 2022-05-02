@@ -1,0 +1,143 @@
+body{
+    
+    background-color: #F6F6F6;
+    padding-bottom: 400px;
+
+    h1{
+        margin: 15px;
+        text-transform: capitalize;
+        font-size: 56px;
+    }
+
+    p{
+        margin-left: 15px;
+        font-size: 24px;
+    }
+
+    table{
+        margin-top: 30px;
+        margin-left: 15px;
+        width: 90%;
+        font-size: 24px;
+        font-weight:400;
+
+        th{
+            background-color: #7FA5CC;
+            color: #EBFEFF;
+        }
+
+        tr>td{
+            width: 22%;
+        }
+
+        tr>th:first-child,
+        tr>td:first-child{
+            width: 35%;
+
+        }
+
+        td{
+            padding-left: 10px;
+
+            p{
+                margin:0;
+                font-size: 20px;
+            }
+        }
+
+    }
+
+    table, th, td {
+        border:1px solid #7B848B;
+      }
+
+
+        form{
+          margin: 40px 0 60px 15px;
+          border: 1px solid black;
+          width: 40%;
+          position: absolute;
+
+          label{
+              font-size: 20px;
+          }
+
+          p{
+              position: absolute;
+              background-color: white;
+              top: -40px;
+              left: 20px;
+          }
+
+          button{
+              background-color: #1D894B;
+              color: white;
+              border-radius: 10px;
+              position: absolute;
+              bottom: -50px;
+              right: 20px;
+              
+            }
+
+
+        }
+
+        form>div{
+          margin-left: 15px;
+        }
+
+
+
+
+
+      form>div:nth-child(2){
+          margin-top: 50px;
+      }
+
+      form>div:nth-child(2)>label{
+        margin-right: 300px;
+      }
+
+      form>div:nth-child(3)>label{
+        margin-right: 299px;
+      }
+
+      form>div:nth-child(4){
+        margin-top: 25px;
+      }
+
+      form>div:nth-child(5){
+        margin: 25px 0 25px 15px;
+      }
+
+      form>div:nth-child(4)>label,
+      form>div:nth-child(5)>label:first-child{
+        margin-right: 235px;
+      }
+
+}
+
+body>div:first-of-type{
+    margin-left: 70px;
+
+}
+
+body>div:first-of-type>div{
+    display: block;
+    position: relative;
+
+    img{
+        position: absolute;
+        left: 0;
+        height: 36px;
+    }
+
+    p{
+        margin: 0 0 0 70px;
+        line-height: 30px;
+    }
+
+
+}
+
+

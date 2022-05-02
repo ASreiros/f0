@@ -1,0 +1,106 @@
+body {
+  background-color: #F6F6F6;
+  padding-bottom: 400px;
+}
+body h1 {
+  margin: 15px;
+  text-transform: capitalize;
+  font-size: 56px;
+}
+body p {
+  margin-left: 15px;
+  font-size: 24px;
+}
+body table {
+  margin-top: 30px;
+  margin-left: 15px;
+  width: 90%;
+  font-size: 24px;
+  font-weight: 400;
+}
+body table th {
+  background-color: #7FA5CC;
+  color: #EBFEFF;
+}
+body table tr > td {
+  width: 22%;
+}
+body table tr > th:first-child,
+body table tr > td:first-child {
+  width: 35%;
+}
+body table td {
+  padding-left: 10px;
+}
+body table td p {
+  margin: 0;
+  font-size: 20px;
+}
+body table, body th, body td {
+  border: 1px solid #7B848B;
+}
+body form {
+  margin: 40px 0 60px 15px;
+  border: 1px solid black;
+  width: 40%;
+  position: absolute;
+}
+body form label {
+  font-size: 20px;
+}
+body form p {
+  position: absolute;
+  background-color: white;
+  top: -40px;
+  left: 20px;
+}
+body form button {
+  background-color: #1D894B;
+  color: white;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -50px;
+  right: 20px;
+}
+body form > div {
+  margin-left: 15px;
+}
+body form > div:nth-child(2) {
+  margin-top: 50px;
+}
+body form > div:nth-child(2) > label {
+  margin-right: 300px;
+}
+body form > div:nth-child(3) > label {
+  margin-right: 299px;
+}
+body form > div:nth-child(4) {
+  margin-top: 25px;
+}
+body form > div:nth-child(5) {
+  margin: 25px 0 25px 15px;
+}
+body form > div:nth-child(4) > label,
+body form > div:nth-child(5) > label:first-child {
+  margin-right: 235px;
+}
+
+body > div:first-of-type {
+  margin-left: 70px;
+}
+
+body > div:first-of-type > div {
+  display: block;
+  position: relative;
+}
+body > div:first-of-type > div img {
+  position: absolute;
+  left: 0;
+  height: 36px;
+}
+body > div:first-of-type > div p {
+  margin: 0 0 0 70px;
+  line-height: 30px;
+}
+
+/*# sourceMappingURL=output.css.map */
